@@ -1,0 +1,98 @@
+{
+  "app": {
+    "title": "Is the Earth Globe or Flat? A Comprehensive Geometric Comparison",
+    "titleLine1": "Is the Earth Globe or Flat?",
+    "titleLine2": "A Comprehensive Geometric Comparison",
+    "subtitle": "Analyzing routes and distances across different geographic projection models",
+    "globe": "Globe Model",
+    "flat": "Flat Model",
+    "language": "العربية",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode",
+    "globeLoading": "Loading Globe...",
+    "settings": "Settings",
+    "resetAll": "Reset All"
+  },
+  "control": {
+    "title": "Control Panel",
+    "point1": "Point 1",
+    "point2": "Point 2",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "calculate": "Calculate",
+    "reset": "Reset",
+    "clickMap": "Or click on the map to select points"
+  },
+  "distance": {
+    "title": "Distance Comparison",
+    "globeDistance": "Globe Distance",
+    "flatDistance": "Flat Distance",
+    "difference": "Absolute Difference",
+    "percentage": "Percentage Difference",
+    "km": "km",
+    "noData": "Enter two points to calculate distance"
+  },
+  "qibla": {
+    "title": "Qibla Direction Calculator",
+    "kaaba": "Kaaba Coordinates",
+    "from": "From Your Location",
+    "globeBearing": "Globe Bearing",
+    "flatBearing": "Flat Model Bearing",
+    "deviation": "Angular Deviation",
+    "degrees": "degrees",
+    "noLocation": "Enter your location to calculate Qibla direction",
+    "calculate": "Calculate Qibla",
+    "useMyLocation": "Use My Current Location",
+    "locationDenied": "Location permission denied. Please allow location access or enter coordinates manually.",
+    "locationUnavailable": "Unable to get location. Please enter coordinates manually.",
+    "locationTimeout": "Location request timed out. Please try again.",
+    "locating": "Locating..."
+  },
+  "flights": {
+    "title": "Flight Routes",
+    "selectRoute": "Select a Route",
+    "sydney_santiago": "Sydney → Santiago",
+    "johannesburg_sydney": "Johannesburg → Sydney",
+    "santiago_auckland": "Santiago → Auckland",
+    "perth_johannesburg": "Perth → Johannesburg",
+    "buenos_aires_sydney": "Buenos Aires → Sydney",
+    "cape_town_auckland": "Cape Town → Auckland",
+    "sao_paulo_johannesburg": "São Paulo → Johannesburg",
+    "lima_sydney": "Lima → Sydney",
+    "dubai_santiago": "Dubai → Santiago",
+    "santiago_sydney": "Santiago → Sydney",
+    "auckland_cape_town": "Auckland → Cape Town",
+    "santiago_johannesburg": "Santiago → Johannesburg",
+    "rio_sydney": "Rio de Janeiro → Sydney",
+    "showRoute": "Show Route",
+    "from": "From",
+    "to": "To",
+    "globeRoute": "Globe Route",
+    "flatRoute": "Flat Route"
+  },
+  "mapSelector": {
+    "title": "Flat Map Type",
+    "azimuthalSatellite": "Azimuthal (North Pole)",
+    "azimuthalGrid": "Computed Grid",
+    "mercator": "Mercator Projection",
+    "customImage": "Custom Image",
+    "uploadImage": "Upload Image",
+    "note": "Flat model calculations are based on Azimuthal Equidistant projection formulas. The image is for visual reference only.",
+    "removeImage": "Remove",
+    "noImages": "No images uploaded yet"
+  },
+  "comparison": {
+    "title": "Comparison Mode",
+    "toggle": "Comparison Mode",
+    "globeDistance": "Globe Distance",
+    "azimuthalDistance": "Azimuthal Distance",
+    "mercatorDistance": "Mercator Distance",
+    "absDifference": "Abs. Difference",
+    "pctDifference": "% Difference"
+  },
+  "legend": {
+    "globe": "Globe",
+    "azimuthal": "Azimuthal",
+    "mercator": "Mercator"
+  }
+}

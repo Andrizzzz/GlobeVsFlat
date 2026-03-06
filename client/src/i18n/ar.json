@@ -1,0 +1,98 @@
+{
+  "app": {
+    "title": "الأرض كروية أم مسطحة؟ مقارنة هندسية شاملة",
+    "titleLine1": "الأرض كروية أم مسطحة؟",
+    "titleLine2": "مقارنة هندسية شاملة",
+    "subtitle": "تحليل المسارات والمسافات باستخدام نماذج وإسقاطات جغرافية مختلفة",
+    "globe": "الكرة الأرضية",
+    "flat": "النموذج المسطح",
+    "language": "English",
+    "darkMode": "الوضع الداكن",
+    "lightMode": "الوضع الفاتح",
+    "globeLoading": "جاري تحميل الكرة الأرضية...",
+    "settings": "الإعدادات",
+    "resetAll": "إعادة ضبط"
+  },
+  "control": {
+    "title": "لوحة التحكم",
+    "point1": "النقطة الأولى",
+    "point2": "النقطة الثانية",
+    "latitude": "خط العرض",
+    "longitude": "خط الطول",
+    "calculate": "احسب",
+    "reset": "إعادة تعيين",
+    "clickMap": "أو انقر على الخريطة لتحديد النقاط"
+  },
+  "distance": {
+    "title": "مقارنة المسافات",
+    "globeDistance": "مسافة الكرة الأرضية",
+    "flatDistance": "مسافة النموذج المسطح",
+    "difference": "الفرق المطلق",
+    "percentage": "نسبة الفرق",
+    "km": "كم",
+    "noData": "أدخل نقطتين لحساب المسافة"
+  },
+  "qibla": {
+    "title": "حاسبة اتجاه القبلة",
+    "kaaba": "إحداثيات الكعبة",
+    "from": "من موقعك",
+    "globeBearing": "اتجاه الكرة الأرضية",
+    "flatBearing": "اتجاه النموذج المسطح",
+    "deviation": "الانحراف الزاوي",
+    "degrees": "درجة",
+    "noLocation": "أدخل موقعك لحساب اتجاه القبلة",
+    "calculate": "احسب اتجاه القبلة",
+    "useMyLocation": "استخدم موقعي الحالي",
+    "locationDenied": "تم رفض إذن الموقع. يرجى السماح بالوصول إلى الموقع أو إدخال الإحداثيات يدوياً.",
+    "locationUnavailable": "تعذر الحصول على الموقع. يرجى إدخال الإحداثيات يدوياً.",
+    "locationTimeout": "انتهت مهلة طلب الموقع. يرجى المحاولة مرة أخرى.",
+    "locating": "جارٍ تحديد الموقع..."
+  },
+  "flights": {
+    "title": "رحلات الطيران",
+    "selectRoute": "اختر مساراً",
+    "sydney_santiago": "سيدني → سانتياغو",
+    "johannesburg_sydney": "جوهانسبرغ → سيدني",
+    "santiago_auckland": "سانتياغو → أوكلاند",
+    "perth_johannesburg": "بيرث → جوهانسبرغ",
+    "buenos_aires_sydney": "بوينس آيرس → سيدني",
+    "cape_town_auckland": "كيب تاون → أوكلاند",
+    "sao_paulo_johannesburg": "ساو باولو → جوهانسبرغ",
+    "lima_sydney": "ليما → سيدني",
+    "dubai_santiago": "دبي → سانتياغو",
+    "santiago_sydney": "سانتياغو → سيدني",
+    "auckland_cape_town": "أوكلاند → كيب تاون",
+    "santiago_johannesburg": "سانتياغو → جوهانسبرغ",
+    "rio_sydney": "ريو دي جانيرو → سيدني",
+    "showRoute": "عرض المسار",
+    "from": "من",
+    "to": "إلى",
+    "globeRoute": "مسار الكرة الأرضية",
+    "flatRoute": "مسار النموذج المسطح"
+  },
+  "mapSelector": {
+    "title": "خريطة النموذج المسطح",
+    "azimuthalSatellite": "الإسقاط السمتي (القطب الشمالي)",
+    "azimuthalGrid": "الشبكة المحسوبة",
+    "mercator": "إسقاط ميركاتور",
+    "customImage": "صورة مخصصة",
+    "uploadImage": "رفع صورة",
+    "note": "حسابات النموذج المسطح تعتمد على صيغ إسقاط السمت المتساوي البعد. الصورة للمرجعية البصرية فقط.",
+    "removeImage": "إزالة",
+    "noImages": "لم يتم رفع صور بعد"
+  },
+  "comparison": {
+    "title": "وضع المقارنة",
+    "toggle": "وضع المقارنة",
+    "globeDistance": "مسافة الكرة",
+    "azimuthalDistance": "مسافة السمتي",
+    "mercatorDistance": "مسافة ميركاتور",
+    "absDifference": "الفرق المطلق",
+    "pctDifference": "نسبة الفرق"
+  },
+  "legend": {
+    "globe": "الكرة الأرضية",
+    "azimuthal": "السمتي",
+    "mercator": "ميركاتور"
+  }
+}

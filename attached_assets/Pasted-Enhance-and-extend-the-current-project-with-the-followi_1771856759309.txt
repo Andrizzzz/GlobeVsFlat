@@ -1,0 +1,213 @@
+Enhance and extend the current project with the following improvements.
+Do NOT break existing architecture, math logic, Cesium setup, or RTL behavior.
+
+==================================================
+
+QIBLA – ADD BROWSER GEOLOCATION
+==================================================
+
+Inside Qibla panel:
+
+Add button:
+"استخدم موقعي الحالي"
+
+When clicked:
+
+Use navigator.geolocation.getCurrentPosition()
+
+enableHighAccuracy: true
+
+If permission granted:
+
+Auto-fill latitude and longitude fields
+
+Automatically calculate Qibla
+
+If denied:
+
+Show clear Arabic error message
+
+Keep manual input available.
+
+Do NOT modify Kaaba coordinates.
+Do NOT change bearing formulas.
+
+==================================================
+2) QIBLA ICON → KAABA ICON
+
+Replace current Qibla tab icon with a Kaaba icon.
+
+Use inline SVG (minimal black Kaaba shape)
+
+Same size as other icons
+
+Compatible with dark/light theme
+
+Clean modern style
+
+==================================================
+3) EXTEND DIRECT FLIGHT ROUTES
+
+Keep existing routes:
+
+Sydney → Santiago
+
+Johannesburg → Sydney
+
+Santiago → Auckland
+
+Perth → Johannesburg
+
+Add:
+
+Buenos Aires → Sydney
+
+Cape Town → Auckland
+
+São Paulo → Johannesburg
+
+Lima → Sydney
+
+Dubai → Santiago
+
+Santiago → Sydney
+
+Auckland → Cape Town
+
+Santiago → Johannesburg
+
+Rio de Janeiro → Sydney
+
+All must:
+
+Be direct routes.
+
+Use geodesic arc on Globe.
+
+Use projected line on Azimuthal.
+
+Work in comparison mode.
+
+Display distances correctly.
+
+==================================================
+4) RENAME FLAT MAP OPTION
+
+Change label:
+
+From:
+"القمر الصناعي السمتي"
+
+To:
+"الإسقاط السمتي (القطب الشمالي)"
+
+Keep same functionality.
+
+==================================================
+5) REMOVE BROKEN MAP OPTIONS
+
+Remove empty tabs:
+
+Gleason
+
+Monopole
+
+Instead add:
+
+الإسقاط السمتي (القطب الشمالي)
+
+إسقاط ميركاتور
+
+==================================================
+6) ADD MERCATOR PROJECTION TAB
+
+Add new tab:
+
+"إسقاط ميركاتور"
+
+Requirements:
+
+Use standard Mercator (EPSG:3857).
+
+Use simple static Mercator world image or tile layer.
+
+Visual comparison only.
+
+Do NOT modify globe distance math.
+
+Do NOT use Mercator for real distance calculation.
+
+Show projected route visually.
+
+==================================================
+7) ADD PROJECTION COMPARISON MODE
+
+Add toggle:
+
+"وضع المقارنة"
+
+When enabled:
+
+Show 3 panels:
+
+Globe (Cesium)
+
+Azimuthal (North Pole)
+
+Mercator
+
+All synchronized.
+
+Show comparison table under routes:
+
+Columns:
+
+Globe distance
+
+Azimuthal projected distance
+
+Mercator projected distance
+
+Absolute difference
+
+Percentage difference
+
+Highlight percentage in red if > 10%.
+
+Do NOT modify Haversine logic.
+
+==================================================
+8) STABILITY
+
+No console errors.
+
+No infinite loops.
+
+Destroy viewers/maps on unmount.
+
+Keep responsiveness.
+
+Keep RTL default.
+
+Keep watermark unchanged.
+
+Do not refactor entire app.
+
+==================================================
+After implementation confirm:
+
+Geolocation works.
+
+Kaaba icon visible.
+
+All new flights selectable.
+
+Mercator tab works.
+
+Comparison mode works.
+
+Distances displayed correctly.
+
+No empty tabs.
+
+No runtime errors.

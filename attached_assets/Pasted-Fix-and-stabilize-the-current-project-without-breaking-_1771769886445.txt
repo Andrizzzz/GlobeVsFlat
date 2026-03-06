@@ -1,0 +1,73 @@
+Fix and stabilize the current project without breaking structure.
+Apply the following improvements carefully:
+========================================
+FIX CESIUM BLUE GLOBE ISSUE ========================================
+Use: Cesium.Ion.defaultAccessToken = import.meta.env.VITE_CESIUM_TOKEN;
+Do NOT hardcode token.
+If token undefined:
+Show visible UI warning: "Cesium token missing. Configure VITE_CESIUM_TOKEN in Secrets."
+Log console warning.
+Use: Cesium.createWorldImagery()
+Add loading spinner while globe initializes.
+Ensure imagery loads in Vite production build.
+Ensure continents visible.
+Destroy viewer on unmount.
+Prevent re-render loops.
+======================================== 2) FULL RESPONSIVE LAYOUT
+Mobile layout: flex-col Control panel top Globe below Flat map below
+Desktop layout: md:flex-row Globe left Flat map right
+Fix overflow issues.
+Ensure Cesium resizes on window resize.
+Make control panel scrollable on small screens.
+======================================== 3) FIX FLAT MAP SELECTOR SWITCHING
+Problem: Switching between:
+Computed Azimuthal
+Gleason
+Monopole
+does not refresh correctly.
+Fix:
+Use useEffect with selectedMap dependency.
+Remove previous ImageOverlay before adding new one.
+Do NOT recreate Leaflet map.
+Prevent layer stacking.
+Keep North Pole centered.
+Keep projection math unchanged.
+Switching must be instant.
+======================================== 4) IMPROVE IMAGE OVERLAY SYSTEM
+Support multiple uploaded images.
+Allow switching between uploaded images.
+Remove old overlay before new one.
+Maintain scaling.
+Prevent memory leaks.
+======================================== 5) UPDATE WATERMARK
+Replace watermark with:
+Mustafa Hasan https://www.facebook.com/MS98IQ�
+Requirements:
+Clickable link
+Opens in new tab
+target="_blank"
+rel="noopener noreferrer"
+Bottom-right fixed
+Subtle background blur
+Slight opacity
+Non-blocking pointer events
+Responsive styling
+======================================== 6) STABILITY IMPROVEMENTS
+Prevent infinite loops.
+Add cleanup in useEffect.
+Ensure Leaflet map destroyed on unmount.
+Ensure Cesium viewer destroyed on unmount.
+Remove console warnings.
+Verify no runtime errors.
+======================================== 7) DO NOT
+Do not refactor entire app.
+Do not rewrite math logic.
+Do not change projection formulas.
+Do not remove i18n or RTL.
+======================================== AFTER FIXING
+Confirm:
+Globe imagery visible (not blue sphere)
+Responsive working
+Flat selector switching works
+Watermark clickable
+No console errors
