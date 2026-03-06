@@ -132,7 +132,7 @@ function AppContent() {
                 </TabsTrigger>
               </TabsList>
 
-              <div className="flex-1 overflow-y-auto p-3">
+              <div id="sidebar-scroll" className="flex-1 overflow-y-auto p-3">
                 <TabsContent value="distance" className="mt-0 space-y-4">
                   <h2 className="text-sm font-semibold">{t('distance.title')}</h2>
                   <ControlPanel />
