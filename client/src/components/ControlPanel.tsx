@@ -69,14 +69,23 @@ export default function ControlPanel() {
     }
   }, [point2]);
 
-  const handleApply = () => {
-    const p1Lat = parseFloat(lat1);
-    const p1Lon = parseFloat(lon1);
-    const p2Lat = parseFloat(lat2);
-    const p2Lon = parseFloat(lon2);
-    if (!isNaN(p1Lat) && !isNaN(p1Lon)) setPoint1({ lat: p1Lat, lon: p1Lon });
-    if (!isNaN(p2Lat) && !isNaN(p2Lon)) setPoint2({ lat: p2Lat, lon: p2Lon });
-  };
+const handleApply = () => {
+  const p1Lat = parseFloat(lat1);
+  const p1Lon = parseFloat(lon1);
+  const p2Lat = parseFloat(lat2);
+  const p2Lon = parseFloat(lon2);
+
+  if (!isNaN(p1Lat) && !isNaN(p1Lon)) setPoint1({ lat: p1Lat, lon: p1Lon });
+  if (!isNaN(p2Lat) && !isNaN(p2Lon)) setPoint2({ lat: p2Lat, lon: p2Lon });
+
+  // النزول التلقائي للنتائج
+  setTimeout(() => {
+    const results = document.getElementById("results");
+    if (results) {
+      results.scrollIntoView({ behavior: "smooth" });
+    }
+  }, 200);
+};
 
   const handleReset = () => {
     setLat1(''); setLon1(''); setLat2(''); setLon2('');
