@@ -102,7 +102,7 @@ function AppContent() {
       </header>
 
       <div className="flex flex-row flex-1 overflow-auto">
-        <div className="w-56 md:order-first shrink-0 border-b md:border-b-0 md:border-e border-border bg-card overflow-y-auto">
+        <div className="w-40 md:order-first shrink-0 border-b md:border-b-0 md:border-e border-border bg-card overflow-y-auto">
           <button
             onClick={() => setSidebarOpen(v => !v)}
             className="md:hidden w-full flex items-center justify-center gap-2 py-2 bg-card border-b border-border text-sm font-medium text-muted-foreground"
